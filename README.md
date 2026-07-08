@@ -17,7 +17,8 @@ Intentional break-and-fix scenarios demonstrating troubleshooting skills
 
 Architecture
 
-<img width="2700" height="1732" alt="17835254446922364593848198938079" src="https://github.com/user-attachments/assets/aa962149-548d-4c7c-bacc-6abf6bfbeaa4" />
+<img width="2700" height="1732" alt="17835256591495253959453053066117" src="https://github.com/user-attachments/assets/f3cad345-4b00-4b10-987d-04da627fc961" />
+
 
 EC2 (Ubuntu 22.04)
 ├── Nginx (reverse proxy + web server)
