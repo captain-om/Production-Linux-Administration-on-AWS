@@ -4,6 +4,7 @@ Investigation: Used systemctl status nginx, journalctl -xe, and nginx -t.
 Root Cause: Missing semicolon in nginx.conf.
 Resolution: Corrected the syntax, validated with nginx -t, and restarted the service successfully.
 
-
+Proof - Nginx error
+3.jpg  
 
 
