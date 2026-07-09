@@ -29,6 +29,10 @@ EC2 (Ubuntu 22.04)
 ├── Jenkins (CI/CD)
 └── Amazon RDS MySQL (database)
 
+Development Environment
+
+This project was built entirely on an Amazon EC2 Ubuntu server using AWS Console and EC2 Instance Connect. No local Linux VM or Docker Desktop was used due to hardware constraints.
+
 Break and Fix Scenarios Documented
 
 
