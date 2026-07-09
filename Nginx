@@ -1,0 +1,11 @@
+Incident 1 – Nginx failed to start after a configuration change.
+
+
+
+Symptoms: systemctl restart nginx failed.
+Investigation: Used systemctl status nginx, journalctl -xe, and nginx -t.
+Root Cause: Missing semicolon in nginx.conf.
+Resolution: Corrected the syntax, validated with nginx -t, and restarted the service successfully.
+
+
+
