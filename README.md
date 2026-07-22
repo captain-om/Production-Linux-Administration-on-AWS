@@ -107,13 +107,15 @@ Production-Linux-Administration-on-AWS/
 
 ## Screenshots
 
-- Linux Administration
-- Nginx Configuration
-- Laravel Deployment
-- Amazon RDS
-- Supervisor
-- Jenkins Pipeline
-- CloudWatch Monitoring
+Project screenshots are organized by component for easy navigation.
+
+- `screenshots/linux/` — Linux administration and server configuration
+- `screenshots/nginx/` — Nginx configuration and troubleshooting
+- `screenshots/laravel/` — Laravel deployment and migration
+- `screenshots/rds/` — Amazon RDS configuration and connectivity
+- `screenshots/supervisor/` — Supervisor process management
+- `screenshots/jenkins/` — Jenkins installation and CI pipeline
+- `screenshots/cloudwatch/` — CloudWatch metrics and alarms
 
 All screenshots are available in the `screenshots/` directory.
 
