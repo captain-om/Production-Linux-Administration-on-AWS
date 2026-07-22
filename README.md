@@ -1,37 +1,96 @@
 # Production Linux Administration & Laravel Deployment on AWS
 
-This project demonstrates a production-style Linux environment built on AWS. The objective was to simulate the day-to-day responsibilities of a DevOps Engineer by configuring, securing, deploying, troubleshooting, and maintaining a Laravel application on Ubuntu.
+This project demonstrates a production-style Linux environment built on AWS. The objective was to instill  practical DevOps concepts including Linux administration, application deployment, troubleshooting, CI/CD, and monitoring on AWS.
 
 The project focuses not only on deployment but also on production troubleshooting through intentional break-and-fix scenarios using Linux logs and systemd.
+
+## Project  Features
+
+- Linux Server Administration
+- SSH User Management
+- UFW Firewall Configuration
+- Nginx Web Server Configuration
+- PHP-FPM Configuration
+- Laravel Application Deployment
+- Amazon RDS MySQL Integration
+- Supervisor Process Management
+- Jenkins CI/CD Pipeline
+- Amazon CloudWatch Monitoring
+- Production Troubleshooting
 
 Architecture
 
 <img width="2700" height="1732" alt="17835256591495253959453053066117" src="https://github.com/user-attachments/assets/f3cad345-4b00-4b10-987d-04da627fc961" />
 
 
-## Technologies
+### Tools & Technologies
+
+### Cloud
 
 - AWS EC2
 - Amazon RDS
+- Amazon CloudWatch
+
+### Operating System
+
 - Ubuntu 24.04 LTS
+
+### Web Server
+
 - Nginx
+
+### Application Stack
+
+- PHP 8.1
 - PHP-FPM
 - Laravel
+- Composer
+
+### Process Management
+
 - Supervisor
-- UFW
 - systemd
-- journalctl
+
+### CI/CD
+
+- Jenkins
 - Git
+- GitHub
 
-## Planned Enhancements
+### Monitoring
 
-- Jenkins CI/CD
-- Blue-Green Deployment
-- Terraform
-- CloudWatch Monitoring
+- Amazon CloudWatch
 
-  ## Lessons Learned
+### Linux Administration
 
-This project strengthened my practical understanding of Linux administration, production troubleshooting, web server configuration, Laravel deployment, Amazon RDS integration, and process management using Supervisor.
+- UFW Firewall
+- journalctl
+- logrotate
 
+
+## Documentation
+
+- [Linux Commands](docs/linux-commands.md)
+- [Troubleshooting Guide](docs/troubleshooting.md)
+- [Jenkins CI/CD](docs/jenkins.md)
+- [CloudWatch Monitoring](docs/cloudwatch.md)
+
+
+## Lessons Learned
+
+Through this project I gained hands-on experience with:
+
+- Linux server administration
+- Production troubleshooting using logs
+- Nginx configuration and debugging
+- Laravel deployment on AWS
+- Amazon RDS connectivity
+- PHP-FPM configuration
+- Supervisor process management
+- Jenkins CI/CD pipelines
+- Amazon CloudWatch monitoring
+
+## Conclusion
+
+This project demonstrates the deployment, administration, monitoring, and troubleshooting of a Laravel application on AWS using production-style Linux administration practices. It focuses on practical DevOps skills such as automation, process management, CI/CD, and infrastructure monitoring.
 
