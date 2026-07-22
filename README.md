@@ -67,6 +67,36 @@ Architecture
 - journalctl
 - logrotate
 
+## Repository Structure
+
+```text
+Production-Linux-Administration-on-AWS/
+│
+├── architecture/
+│   └── architecture.jpg
+│
+├── configs/
+│   ├── nginx/
+│   └── supervisor/
+│
+├── docs/
+│   ├── linux-commands.md
+│   ├── troubleshooting.md
+│   ├── jenkins.md
+│   └── cloudwatch.md
+│
+├── screenshots/
+│   ├── linux/
+│   ├── nginx/
+│   ├── laravel/
+│   ├── rds/
+│   ├── supervisor/
+│   ├── jenkins/
+│   └── cloudwatch/
+│
+├── Jenkinsfile
+└── README.md
+```
 
 ## Documentation
 
@@ -75,6 +105,17 @@ Architecture
 - [Jenkins CI/CD](docs/jenkins.md)
 - [CloudWatch Monitoring](docs/cloudwatch.md)
 
+## Screenshots
+
+- Linux Administration
+- Nginx Configuration
+- Laravel Deployment
+- Amazon RDS
+- Supervisor
+- Jenkins Pipeline
+- CloudWatch Monitoring
+
+All screenshots are available in the `screenshots/` directory.
 
 ## Lessons Learned
 
@@ -90,7 +131,19 @@ Through this project I gained hands-on experience with:
 - Jenkins CI/CD pipelines
 - Amazon CloudWatch monitoring
 
+
+## Future Improvements
+
+This project intentionally focuses on Linux administration, deployment, CI/CD, and monitoring.
+
+Possible future enhancements include:
+
+- Infrastructure as Code using Terraform
+- Docker containerization
+- Amazon ECS or Kubernetes deployment
+- Automated testing in Jenkins
+- Advanced monitoring with Prometheus and Grafana
+
 ## Conclusion
 
 This project demonstrates the deployment, administration, monitoring, and troubleshooting of a Laravel application on AWS using production-style Linux administration practices. It focuses on practical DevOps skills such as automation, process management, CI/CD, and infrastructure monitoring.
-
